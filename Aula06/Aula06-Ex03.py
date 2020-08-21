@@ -39,6 +39,9 @@ elif letra == 'B' or letra == 'b':
 elif letra == 'C' or letra == 'c':
     n1= int(input("Insira o primeiro número: "))
     n2= int(input("Insira o segundo número: "))
-    print(f"A divisão de {n1} e {n2} é: ", n1/n2)
+    if n2 == 0:
+        print("Erro! Não pode dividir por ZERO!")
+    else:
+        print(f"A divisão de {n1} e {n2} é: ", n1/n2)
 else:
     print("Muito Obrigada e volte sempre!")
