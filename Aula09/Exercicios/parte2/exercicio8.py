@@ -6,3 +6,11 @@ Com o resultado desta formula mostre sómente os resultados maiores que 550. Par
 
 lista = [1, 6, 9, 1, 5, 4, 8, 9, 15, 23, 14, 54, 82, 91, 45]
 """
+lista = [1, 6, 9, 1, 5, 4, 8, 9, 15, 23, 14, 54, 82, 91, 45]
+
+for i in lista:
+    resultado = 32*i+125
+    if resultado >= 550:
+        print(f"Resultado: {resultado}")
+    else:
+        print(f"Número inválido: {i}")
