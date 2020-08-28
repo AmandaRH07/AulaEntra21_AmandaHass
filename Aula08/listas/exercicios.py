@@ -35,4 +35,4 @@ print("Dados de 10 até 80:", lista[0:4])
 # 7) Usando a indexação, escreva na tela os seguintes dados:
 # 10, abacaxi, Cachorro grande é de arrasar
 
-print("10, abacaxi, Cachorro grande é de arrasar: ",lista[0:7:3])
+print("10, abacaxi, Cachorro grande é de arrasar: ",lista[::3])
