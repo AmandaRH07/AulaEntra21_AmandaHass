@@ -21,7 +21,7 @@ lista_nome = []
 lista_sexo = []
 lista_telefone = []
 
-for i in range(2): 
+for i in range(5): 
     lista_nome.append(input(f'Digite o nome: '))
     lista_sexo.append(input(f'Digite o sexo: '))
     lista_telefone.append(int(input(f'Digite o telefone: ')))

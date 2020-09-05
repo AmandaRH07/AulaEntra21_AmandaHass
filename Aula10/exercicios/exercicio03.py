@@ -19,7 +19,7 @@ lista_sexo = []
 lista_idade = []
 
 print("---------Cadastro do Cliente---------")
-for i in range(1,3):
+for i in range(1,6):
     lista_id.append(i)
     lista_nome.append(input("Digite o nome: "))
     lista_sexo.append(input("Digite o sexo (M ou F): "))
