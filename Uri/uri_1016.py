@@ -1,0 +1,2 @@
+distanciaY = int(input())
+
