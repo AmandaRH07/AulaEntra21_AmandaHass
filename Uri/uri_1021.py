@@ -1,42 +1,43 @@
 valor = float(input())
 
-notas100 = int(valor / 100)
-valor = valor - notas100 * 100
-notas50 = int(valor / 50)
-valor = valor - notas50 * 50
-notas20 = int(valor / 20)
-valor = valor - notas20 * 20
-notas10 = int(valor / 10)
-valor = valor - notas10 * 10
-notas5 = int(valor / 5)
-valor = valor - notas5 * 5
-notas2 = int(valor / 2)
-valor = valor - notas2 * 2
+resto = valor + 0.001
 
-moedas1 = int(valor / 1)
-valor = valor - moedas1 * 1
-moedas050 = int(valor / 0.50)
-valor = valor - moedas050 * 0.50
-moedas025 = int(valor / 0.25)
-valor = valor - moedas025 * 0.25
-moedas010 = int(valor / 0.10)
-valor = valor - moedas010 * 0.10
-moedas005 = int(valor / 0.05)
-valor = valor - moedas005 * 0.05
-moedas001 = int(valor / 0.01)
-valor = valor - moedas001 * 0.01
+n100 = int(resto / 100)
+resto = resto - (n100 * 100)
+n50 = int(resto / 50)
+resto = resto - (n50 * 50)
+n20 = int(resto / 20)
+resto = resto - (n20 * 20)
+n10 = int(resto / 10)
+resto = resto - (n10 * 10)
+n5 = int(resto / 5)
+resto = resto - (n5 * 5)
+n2 = int(resto / 2)
+resto = resto - (n2 * 2)
+m1 = int(resto / 1)
+resto = resto - (m1 * 1)
+m50 = int(resto / 0.5)
+resto = resto - (m50 * 0.5)
+m25 = int(resto / 0.25)
+resto = resto - (m25 * 0.25)
+m10 = int(resto / 0.10)
+resto = resto - (m10 * 0.10)
+m5 = int(resto / 0.05)
+resto = resto - (m5 * 0.05)
+m01 = int(resto / 0.01)
+resto = resto - (m01 * 0.01)
 
-print("NOTAS")
-print(f"{notas100} nota(s) de R$ 100.00")
-print(f"{notas50} nota(s) de R$ 50.00")
-print(f"{notas20} nota(s) de R$ 20.00")
-print(f"{notas10} nota(s) de R$ 10.00")
-print(f"{notas5} nota(s) de R$ 5.00")
-print(f"{notas2} nota(s) de R$ 2.00")
+print("NOTAS:")
+print(f"{n100} nota(s) de R$ 100.00")
+print(f"{n50} nota(s) de R$ 50.00")
+print(f"{n20} nota(s) de R$ 20.00")
+print(f"{n10} nota(s) de R$ 10.00")
+print(f"{n5} nota(s) de R$ 5.00")
+print(f"{n2} nota(s) de R$ 2.00")
 print("MOEDAS:")
-print(f"{moedas1} moeda(s) de R$ 1.00")
-print(f"{moedas050} moeda(s) de R$ 0.50")
-print(f"{moedas025} moeda(s) de R$ 0.25")
-print(f"{moedas010} moeda(s) de R$ 0.10")
-print(f"{moedas005} moeda(s) de R$ 0.05")
-print(f"{moedas001} moeda(s) de R$ 0.01")
+print(f"{m1} moeda(s) de R$ 1.00")
+print(f"{m50} moeda(s) de R$ 0.50")
+print(f"{m25} moeda(s) de R$ 0.25")
+print(f"{m10} moeda(s) de R$ 0.10")
+print(f"{m5} moeda(s) de R$ 0.05")
+print(f"{m01} moeda(s) de R$ 0.01") 
